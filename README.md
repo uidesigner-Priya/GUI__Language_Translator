@@ -46,7 +46,8 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    - pip install translate
    > [!NOTE]
    > Make sure that Tkinter is installed with standard python installation. You can verify this by trying to import tkinter in a Python script or interactive session:
-   > import tkinter
+     ```sh
+     import tkinter
      print(tkinter.TkVersion)
 
    > If tkinter is not available or you encounter an import error, you might need to reinstall Python or ensure that tkinter was included during the installation process.
