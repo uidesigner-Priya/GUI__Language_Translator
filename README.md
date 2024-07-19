@@ -9,7 +9,7 @@ This project is a graphical user interface (GUI) based translator created using 
 - Support for various language APIs
 - Copy and paste functionality
 - Error handling for network and API issues
-- 
+  
 ## Screenshots
 
 ### Main Interface
@@ -42,17 +42,21 @@ Make sure you have Python installed. You can download it from [python.org](https
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 3. Install the required packages:
-   - from tkinter import * 
-   - pip install translate
+   ```sh
+   from tkinter import * 
+   pip install translate
+   ```
    > [!NOTE]
    > Make sure that Tkinter is installed with standard python installation. You can verify this by trying to import tkinter in a Python script or interactive session:
      ```sh
      import tkinter
      print(tkinter.TkVersion)
+   ```
 
-   > If tkinter is not available or you encounter an import error, you might need to reinstall Python or ensure that tkinter was included during the installation process.
+    > If tkinter is not available or you encounter an import error, you might need to reinstall Python or
+      ensure that tkinter was included during the installation process.
 
-4. Run the main script to start the GUI Translator:
+5. Run the main script to start the GUI Translator:
    Language translator with GUI.py
 
 ## Folder Structure
