@@ -37,8 +37,8 @@ Make sure you have Python installed. You can download it from [python.org](https
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/gui-translator.git
-   cd gui-translator
+   https://github.com/uidesigner-Priya/GUI__Language_Translator.git
+   cd GUI__Language_Translator
 
 2. Create and activate a virtual environment:
    ```sh
