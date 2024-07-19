@@ -41,6 +41,7 @@ Make sure you have Python installed. You can download it from [python.org](https
    cd gui-translator
 
 2. Create and activate a virtual environment:
+   ```sh
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
