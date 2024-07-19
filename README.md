@@ -36,3 +36,22 @@ Make sure you have Python installed. You can download it from [python.org](https
    ```sh
    git clone https://github.com/your-username/gui-translator.git
    cd gui-translator
+
+2. Create and activate a virtual environment:
+   python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. Install the required packages:
+   from tkinter import *
+   from translate import Translator
+
+4. Run the main script to start the GUI Translator:
+   Language translator with GUI.py
+
+## Folder Structure
+```
+├── Language translator with GUI.py
+└── README.md
+```
+
+
