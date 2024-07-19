@@ -45,7 +45,7 @@ Make sure you have Python installed. You can download it from [python.org](https
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-3. Install the required packages:
+3. Install and import the required packages:
    ```sh
    from tkinter import * 
    pip install translate
