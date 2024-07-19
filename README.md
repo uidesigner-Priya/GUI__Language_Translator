@@ -1,14 +1,14 @@
 # GUI Language Translator Project
 
-This project is a graphical user interface (GUI) based translator created using Python. It allows users to translate text between various languages using a simple and intuitive interface.
+This project is a graphical user interface (GUI) based Language translator created using Python. It allows users to translate text between various languages using a simple and intuitive interface.
 
 ## Features
 
 - Translate text between multiple languages
 - User-friendly graphical interface
-- Support for various language APIs
+- Can include multiple languages
 - Copy and paste functionality
-- Error handling for network and API issues
+- Easily customizable GUI interface
   
 ## Screenshots
 
@@ -16,6 +16,9 @@ This project is a graphical user interface (GUI) based translator created using 
 
 ![Main Interface](https://github.com/user-attachments/assets/88a6dc42-d034-40f9-af3f-7af3f9fba648)
 
+### Languages Options
+
+![Language Options](https://github.com/user-attachments/assets/0ed31a81-b376-4944-ad24-d89d7ad2a231)
 
 ### Translation in Action
 
@@ -39,7 +42,7 @@ Make sure you have Python installed. You can download it from [python.org](https
 
 2. Create and activate a virtual environment:
    python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 3. Install the required packages:
    ```sh
@@ -52,11 +55,11 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
      import tkinter
      print(tkinter.TkVersion)
    ```
-
+    > [!NOTE]
     > If tkinter is not available or you encounter an import error, you might need to reinstall Python or
       ensure that tkinter was included during the installation process.
 
-5. Run the main script to start the GUI Translator:
+4. Run the main script to start the GUI Translator:
    Language translator with GUI.py
 
 ## Folder Structure
