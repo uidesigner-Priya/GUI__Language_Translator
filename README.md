@@ -63,6 +63,7 @@ Make sure you have Python installed. You can download it from [python.org](https
       ensure that tkinter was included during the installation process.
 
 4. Run the main script to start the GUI Translator:
+   ```sh
    Language translator with GUI.py
 
 ## Folder Structure
